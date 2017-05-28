@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" 
+xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+<meta charset="UTF-8"/>
+<title>Ma Banque</title>
+<link rel="stylesheet" type="text/css"
+href="../static/css/bootstrap.min.css"
+th:href="@{/css/bootstrap.min.css}" />
+<link rel="stylesheet" type="text/css"
+href="../static/css/myStyle.css"
+th:href="@{/css/myStyle.css}" />
+</head>
+<body>
+
+<header>
+	<div class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<ul class="nav navbar-nav">
+				<li><a th:href="@{/operation}">Operations</a></li>
+				<li><a th:href="@{/comptes}">Comptes</a></li>
+				<li><a th:href="@{/clients}">Clients</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a th:href="@{/login?logout}">Logout</a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+
+
+<section layout:fragment="content"></section>
+
+
+<footer class="navbar-fixed-bottom">
+	<small>l'adresse de votre compte</small>
+</footer>
+
+</body>
+</html>
