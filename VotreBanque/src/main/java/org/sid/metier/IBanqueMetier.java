@@ -3,7 +3,12 @@ package org.sid.metier;
 import org.sid.entities.Compte;
 import org.sid.entities.Operation;
 import org.springframework.data.domain.Page;
-
+//adama
+//adama
+//adama
+//adama
+//adama
+//adama
 public interface IBanqueMetier {
 
 	public Compte consulterCompte(String codeCpte);
