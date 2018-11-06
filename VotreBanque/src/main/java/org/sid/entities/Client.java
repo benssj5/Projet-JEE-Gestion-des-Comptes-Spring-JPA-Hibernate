@@ -9,6 +9,15 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
+/*
+* Habi
+*
+*/
+/*
+* Habi
+*
+*/
+
 @Entity
 public class Client implements Serializable{
 
