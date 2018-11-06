@@ -1,4 +1,4 @@
-package org.sid.metier;
+﻿package org.sid.metier;
 
 import java.util.Date;
 
@@ -14,7 +14,9 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
+//adama
+//adama
+//adama
 @Service
 @Transactional
 public class BanqueMetierImpl implements IBanqueMetier{
