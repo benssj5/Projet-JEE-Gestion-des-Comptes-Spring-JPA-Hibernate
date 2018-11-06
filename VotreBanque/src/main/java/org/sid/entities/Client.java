@@ -11,6 +11,10 @@ import javax.persistence.OneToMany;
 
 @Entity
 public class Client implements Serializable{
+//adama
+//adama
+//adama//adama
+//adama
 
 	@Id @GeneratedValue
 	private Long code;
